@@ -14,9 +14,9 @@ end
 
 def connect_to_twitter
   Twitter::REST::Client.new do |config|
-    config.consumer_key        = 'INSERT_CONSUMER_KEY'
-    config.consumer_secret     = 'INSERT_CONSUMER_SECRET'
-    config.access_token        = 'INSERT_ACCESS_TOKEN'
-    config.access_token_secret = 'INSERT_ACCESS_TOKEN_SECRET'
+    config.consumer_key        = 'Y1mkyHFvRi652DgMHFr9yqNJ4'
+    config.consumer_secret     = '8Pf8wTqPETknY3WjajG5aMRry337HVjdATxsl7SYqM92UEuFOC'
+    config.access_token        = '3131481970-T5vOsXAvAGaUzCYOq58Ay3OhGzrtsfuKyjGsd1s'
+    config.access_token_secret = 'Q8fNubKfzp9eb075RqEAhu4TVnldqDTkaY4Fx3jCp3sWE'
   end
 end
